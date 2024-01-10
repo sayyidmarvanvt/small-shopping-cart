@@ -54,7 +54,7 @@ const Shoppingcart = () => {
   return (
     <>
       <div className="m-auto w-[900px] max-w-[90vw] text-center pt-[10px]">
-        <div className="flex flex-row justify-between items-center py-[20px]">
+        <div className=" fixed w-[900px] max-w-[90vw] flex flex-row justify-between items-center py-[20px] ">
           <div className="text-xl">PRODUCT LIST</div>
           <div className="relative">
             <MdOutlineShoppingCart

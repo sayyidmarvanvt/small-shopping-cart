@@ -2,13 +2,13 @@ import React from "react";
 
 const Product = ({ data, handleClick }) => {
   return (
-    <div className="flex flex-wrap justify-center gap-5">
+    <div className="flex flex-wrap justify-center gap-5 mt-16 ">
       {data.map((data) => (
         <div
           key={data.id}
-          className="bg-[#eee] p-4 rounded-[20px] flex flex-col  w-[200px]  my-1 border-2 hover:border-blue-700 "
+          className="bg-[#eee] p-4 rounded-[20px] flex flex-col  sm:w-[200px]  w-[300px]  my-1 border-2 hover:border-blue-700  items-center"
         >
-          <div className="w-[160px] h-[155px] bg-white px-5">
+          <div className="w-[160px] h-[155px] bg-white px-5 ">
             <img
               src={data.image}
               alt="product"
